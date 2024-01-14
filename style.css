@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(237, 246, 246);
+}
+
+nav{
+    display:flex;
+    justify-content: end;
+
+}
+
+nav ul li{
+    display:inline-block;
+    padding: 20px 0;
+    padding-left:8px;
+    padding-right: 30px;
+    
+}
+
+nav ul li a{
+    border-radius: 10px;
+    text-decoration: none;
+    color: green;
+    transition: ball 2.5s;
+    font-weight: 300;
+    
+}
+
+nav ul li a:hover{
+    color:orangered;
+    transform: ball;
+}
+
+.text{
+    
+    width: 100%;
+    
+    
+}
+
+.text h1{
+    justify-content: center;
+    display: flex;
+    padding: 100px;
+    padding-left: 30%;
+    font-size: 60px;
+    color: green;
+   font-family: sans-serif;
+}
+
+
+.text p{
+    justify-content: center;
+    display: flex;
+    
+    padding-left: 30%;
+    
+
+}
+
+
+
